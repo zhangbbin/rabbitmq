@@ -1,0 +1,20 @@
+server:
+  port: 8989
+spring:
+  mail:
+    #SMTP服务器地址
+    host: smtp.163.com
+    # 授权码
+    password: TKLFWLUDNDTVALOJ
+    # 发送者邮箱
+    username: zhang_bin2022@163.com
+    #邮件发信人（即真实邮箱）
+    properties:
+      from: zhang_bin2022@163.com
+  thymeleaf:
+    cache: false
+    prefix: classpath:/views/
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 50MB

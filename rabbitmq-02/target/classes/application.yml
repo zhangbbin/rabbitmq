@@ -1,0 +1,12 @@
+spring:
+  rabbitmq:
+    # 用户名
+    username: admin
+    # 密码
+    password: admin
+    # 服务器地址
+    host: 192.168.184.128
+    # 端口
+    port: 5672
+    # 虚拟主机
+    virtual-host: /ems
